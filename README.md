@@ -1,0 +1,1 @@
+This is my Python Github Repository and I request you to don't try to edit my code, according to me I have put the right license for disabling editing of the code but if you still manage to find any problem report it to me. :D
