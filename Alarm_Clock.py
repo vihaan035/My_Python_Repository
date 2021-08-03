@@ -4,17 +4,16 @@ from win10toast import ToastNotifier
 import datetime
 import time
 
-def alarm(set_alarm):
-    toast = ToastNotifier()
-    while True:
-        time.sleep(1)
-        date = datetime.datetime.now()
-        now = date.strftime("%H:%M:%S")
-        print(now)
-        if now == set_alarm:
-            print("Alarm Clock")
-            toast.show_toast("Alarm Clock",duration=1)
-            playsound("Neo Nomen - KARLSON Trailer OST.mp3")
+#def alarm(set_alarm):
+ #   toast = ToastNotifier()
+  #  while True:
+   #     time.sleep(1)
+    #    date = datetime.datetime.now()
+     #   now = date.strftime("%H:%M:%S")
+      #  print(now)
+       # if now == set_alarm:
+        #    print("Alarm Clock")
+         ##  playsound("Neo Nomen - KARLSON Trailer OST.mp3")
 
 def getvalue():
     set_alarm = f"{hour.get()}:{min.get()}:{sec.get()}"
