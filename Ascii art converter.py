@@ -1,6 +1,7 @@
 from PIL import Image
 import sys
 
+#hello my name is vihaan and this is a test
 def convertImgtoAscii(image):
     ascii = ""
     width, height = image.size
