@@ -3,10 +3,11 @@ import pyautogui as pg
 import time
 import pyttsx3
 
-main=0
+main = 0
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[len(voices)-1].id)
+engine.setProperty('voice', voices[len(voices) - 1].id)
+
 
 def speak(audio):
     engine.say(audio)
